@@ -134,30 +134,27 @@ a {color:inherit;}
 
 @media only screen and (max-width:1200px) {
 
-.inline-blockC {
-    display: inline;
-    vertical-align: top;
-    font-size: 16px;
-    margin: 0%;
-    padding: 16px;
-}
+    .inline-blockA {
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+       float: left;
+        
+    }
    
 
-    .inline-block2 {
-        font-size: 16px;
-        display: inline;
-        padding: 20px;
-    }
+    
 
-    .logo  {
-        width: 13%;
-        padding: 0%;
-        
-         }
+.logo  {
+    width: 6%;
+    padding: 2%;
+    height: 33%;
+     }
 
          .myWork {
             background-color: black;
             height: 1050px;
+            margin-top: 12%;
             }
 
 
@@ -199,6 +196,9 @@ a {color:inherit;}
             text-align: left;
            }
 
+           h5 {
+            padding: 35px;
+           }
            
 }
 

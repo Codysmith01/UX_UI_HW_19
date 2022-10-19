@@ -105,24 +105,28 @@ a {color:inherit;}
 
     .inline-blockA {
         font-size: 16px;
-        display: inline;
         padding: 0px;
+        margin: 0px;
+       float: left;
+        
     }
 
-    .inline-block2 {
-        font-size: 16px;
+   
+    .navigation {
         display: inline;
-        padding: 25px;
     }
+
 
     .logo  {
-        width: 13%;
+        width: 6%;
         padding: 2%;
-        
+        height: 24%;
          }
 
          .mySkills {
             background-color: black;
-            height: 1100px; }
+            height: 1000px;
+        padding: 0%;
+    margin-top: 12%; }
 
 }
