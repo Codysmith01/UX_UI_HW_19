@@ -13,4 +13,11 @@
     }, function() {     
     });
 
+    $("h5").hover(function(){
+      $(this).css("color", "#5374B8");
+    }, function() {
+      $(this).css("color", "white");
+    }, function() {     
+    });
+
    

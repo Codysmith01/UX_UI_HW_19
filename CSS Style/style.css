@@ -8,29 +8,21 @@
     font-size: 18px;
     float: right;
     padding-right: 85px;
+    
 }
 
 li {
     display: inline;
     padding: 25px;
     text-align: right;
-}
-
-.inline-block2 {
-    vertical-align: top;
-    display: inline-block;
-    margin: auto;
-    padding: 23px;
-    text-align: right;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
     
 }
 
+
+
 footer {
     text-align: right;
-    height: 0px
+    height: 0px;
 }
 
 
@@ -84,7 +76,7 @@ text-align: center;
 
 footer {
     background-color:white;
-    height: px;
+    height: 0px;
 }
 
 button {
@@ -95,6 +87,14 @@ button {
     background-color:white;
     border-radius: 20px;
 }
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+
+a {color:inherit;}
+
+
 
 @media only screen and (max-width:1000px) {
 

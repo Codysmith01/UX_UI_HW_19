@@ -14,21 +14,8 @@ header {
     height: 65px;
 
 }
+ 
 
-.inline-block1 {
-    vertical-align: top;
-    display: inline-block;
-    margin: 0px;
-    padding: 20px;
-    text-align: center;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    padding-right: 80px;
-    
-}  
-
-/*update*/ 
 .logo  {
     width: 4%;
     padding: 2%;
@@ -66,6 +53,7 @@ width: 33%;
 margin: 2%;
 padding: 2%;
 background-color: white;
+border-radius: 25px;
 
 }
 
@@ -94,6 +82,15 @@ p {
     color: #5374B8;
 
 }
+
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+
+a {color:inherit;}
+
+
 
 @media only screen and (max-width:700px) 
 { 
