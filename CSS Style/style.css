@@ -27,10 +27,7 @@ footer {
 
 
 
-header { 
-    background-color: white;
-    height: 90px;
-}
+
 
 
 
@@ -67,6 +64,18 @@ padding-top: 2px;
      
 }
 
+
+header { 
+    background-color: white;
+    height: 90px;
+}
+
+
+body {
+    background-color: white;
+}
+
+
 .flexContainer {
 display: flex;
 flex-direction: row;
@@ -98,45 +107,30 @@ a {color:inherit;}
 
 @media only screen and (max-width:1000px) {
 
-    section.heroImg {
-        height: auto;
-        padding: 0px;
-        
-    }
-
-    .content {
-        height: 70%;
-        
-    }
-
-    .inline-block {
+    .inline-blockA {
         font-size: 16px;
-        display: inline;
-        padding: 10px;
-        margin: 6px;
-        float: center;
+        padding: 0px;
+        margin: auto;
+       
+        
        
     }
 
-    .inline-block1 {
-        font-size: 16px;
-        display: inline-block;
-        padding: 10px;
-        margin: 0%;
-        padding-top: 30px;
-    }
+.navigation {
+    display: inline;
+}
 
 button {
 
     font-size: 14px;
     padding: 4px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .logo  {
-    width: 16%;
+    width: 6%;
     padding: 2%;
-    
+    height: 24%;
      }
 
 p {
@@ -149,9 +143,9 @@ font-size: 21px;
 
 }
 
-.heroImg {
+.flexContainer {
 
-width: auto;
+width: 80%;
 height: auto;
 
 }
